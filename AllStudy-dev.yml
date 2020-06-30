@@ -1,2 +1,11 @@
+---
+spring:
+  profiles: dev
 book:
   name: aaaaaaa
+
+---
+spring:
+  profiles: test
+book:
+  name: bbbbbbb
